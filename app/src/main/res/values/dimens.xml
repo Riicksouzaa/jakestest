@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Spacing sizes -->
+    <dimen name="spacing_size_4">4dp</dimen>
+    <dimen name="spacing_size_8">8dp</dimen>
+    <dimen name="spacing_size_10">10dp</dimen>
+    <dimen name="spacing_size_16">16dp</dimen>
+    <dimen name="spacing_size_20">20dp</dimen>
+    <dimen name="spacing_size_24">24dp</dimen>
+    <dimen name="spacing_size_32">32dp</dimen>
+    <dimen name="spacing_size_48">48dp</dimen>
+    <dimen name="spacing_size_56">56dp</dimen>
+
+    <!-- Text sizes -->
+    <dimen name="fixed_text_size_header">24sp</dimen>
+    <dimen name="fixed_text_size_body">18sp</dimen>
+    <dimen name="fixed_text_size_caption">16sp</dimen>
+
+    <dimen name="fixed_text_size_header_line_spacing">5dp</dimen>
+    <dimen name="fixed_text_size_body_line_spacing">4dp</dimen>
+    <dimen name="fixed_text_size_caption_line_spacing">3dp</dimen>
+
+    <!-- Toolbar -->
+    <dimen name="flexi_dimen_toolbar_height">48dp</dimen>
+    <dimen name="flexi_dimen_toolbar_title_text_size">18dp</dimen>
+    <dimen name="flexi_dimen_toolbar_subtitle_text_size">14dp</dimen>
+
+</resources>
