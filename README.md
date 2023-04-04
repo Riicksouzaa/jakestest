@@ -1,7 +1,3 @@
-# Student Beans Android Task
-
-Homework exercise for candidates.
-
 ## Instructions
 
 Complete this app recreating the designs below, and focus on the following:
