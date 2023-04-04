@@ -8,16 +8,16 @@
     <fragment
         android:id="@+id/loginFragment"
         android:name="com.example.myapplication.LoginFragment"
-        tools:layout="@layout/fragment_login"
-        android:label="LoginFragment" >
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
         <action
             android:id="@+id/action_loginFragment_to_photoListFragment"
             app:destination="@id/photoListFragment" />
     </fragment>
 
     <fragment
-       android:id="@+id/photoListFragment"
+        android:id="@+id/photoListFragment"
         android:name="com.example.myapplication.PhotoListFragment"
-        tools:layout="@layout/fragment_photo_list"
-        android:label="PhotoListFragment"/>
+        android:label="PhotoListFragment"
+        tools:layout="@layout/fragment_photo_list" />
 </navigation>

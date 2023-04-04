@@ -1,21 +1,31 @@
 package com.example.myapplication.fragments
 
 import android.os.Bundle
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import dagger.hilt.android.AndroidEntryPoint
+import androidx.activity.OnBackPressedCallback
+import androidx.fragment.app.Fragment
 import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.disposables.Disposable
 
 /**
  * A general base fragment that can be extended
  */
-@AndroidEntryPoint
 abstract class GeneralBaseFragment : Fragment() {
 
     private var compositeDisposable = CompositeDisposable()
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+
+        val backPressed = object : OnBackPressedCallback(true) {
+            override fun handleOnBackPressed() {
+                TODO("Not yet implemented")
+            }
+        }
+    }
+
 
     override fun onDestroyView() {
         compositeDisposable.dispose()
